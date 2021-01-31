@@ -96,6 +96,7 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         jLabel2.setText("Select Avatar:");
 
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel10MouseClicked(evt);
@@ -109,6 +110,7 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         });
 
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel11MouseClicked(evt);
@@ -122,6 +124,7 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         });
 
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel12MouseClicked(evt);
@@ -135,6 +138,7 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         });
 
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel13MouseClicked(evt);
@@ -148,6 +152,7 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         });
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel14MouseClicked(evt);
@@ -344,39 +349,39 @@ public class frmLogin extends javax.swing.JFrame implements MouseListener{
         Object o = e.getSource();
         if(o==jLabel11){
             jLabel11.setBorder(new javax.swing.border.LineBorder(Color.BLACK));
-            jLabel12.setBorder(null);
-            jLabel13.setBorder(null);
-            jLabel14.setBorder(null);
-            jLabel10.setBorder(null);
+            jLabel12.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel13.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel14.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel10.setBorder(new javax.swing.border.EtchedBorder());
         }
         if(o==jLabel12){
             jLabel12.setBorder(new javax.swing.border.LineBorder(Color.BLACK));
-            jLabel11.setBorder(null);
-            jLabel13.setBorder(null);
-            jLabel14.setBorder(null);
-            jLabel10.setBorder(null);
+            jLabel11.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel13.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel14.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel10.setBorder(new javax.swing.border.EtchedBorder());
         }
         if(o==jLabel13){
             jLabel13.setBorder(new javax.swing.border.LineBorder(Color.BLACK));
-            jLabel12.setBorder(null);
-            jLabel11.setBorder(null);
-            jLabel14.setBorder(null);
-            jLabel10.setBorder(null);
+            jLabel12.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel11.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel14.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel10.setBorder(new javax.swing.border.EtchedBorder());
         }
         if(o==jLabel14){
             jLabel14.setBorder(new javax.swing.border.LineBorder(Color.BLACK));
-            jLabel11.setBorder(null);
-            jLabel13.setBorder(null);
-            jLabel12.setBorder(null);
-            jLabel10.setBorder(null);
+            jLabel11.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel13.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel12.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel10.setBorder(new javax.swing.border.EtchedBorder());
             
         }
         if(o==jLabel10){
             jLabel10.setBorder(new javax.swing.border.LineBorder(Color.BLACK));
-            jLabel11.setBorder(null);
-            jLabel13.setBorder(null);
-            jLabel12.setBorder(null);
-            jLabel14.setBorder(null);
+            jLabel11.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel13.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel12.setBorder(new javax.swing.border.EtchedBorder());
+            jLabel14.setBorder(new javax.swing.border.EtchedBorder());
         }
     }
 

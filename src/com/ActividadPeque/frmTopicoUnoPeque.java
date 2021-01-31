@@ -633,14 +633,14 @@ public class frmTopicoUnoPeque extends javax.swing.JFrame {
 
     private void LBLCafeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LBLCafeMouseClicked
         AudioClip audio1;
-        audio1=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/10 Cafe Brown.mp3"));
+        audio1=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/10 Cafe Brown.wav"));
         audio1.play();
     }//GEN-LAST:event_LBLCafeMouseClicked
 
     private void LBLCelestesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LBLCelestesMouseClicked
-        AudioClip audio1;
-        audio1=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/Celeste.wav"));
-        audio1.play();
+        AudioClip audio2;
+        audio2=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/11 Celeste Sky-Blue.wav"));
+        audio2.play();
     }//GEN-LAST:event_LBLCelestesMouseClicked
 
     private void LBLYellowMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LBLYellowMouseClicked
@@ -663,7 +663,7 @@ public class frmTopicoUnoPeque extends javax.swing.JFrame {
 
     private void LBLRosadoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LBLRosadoMouseClicked
         AudioClip audio1;
-        audio1=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/8 Rosado Pink.mp3"));
+        audio1=java.applet.Applet.newAudioClip(getClass().getResource("/com/Recursos/ColorsAudio/8 Rosado Pink.wav"));
         audio1.play();
     }//GEN-LAST:event_LBLRosadoMouseClicked
 
@@ -691,7 +691,6 @@ public class frmTopicoUnoPeque extends javax.swing.JFrame {
         audio1.play();
     }//GEN-LAST:event_LBLAzulMouseClicked
 
-    
     
     /**
      * @param args the command line arguments
