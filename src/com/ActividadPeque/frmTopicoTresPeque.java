@@ -116,7 +116,7 @@ public class frmTopicoTresPeque extends javax.swing.JFrame {
         jLabel10.setText("Nose / Nariz");
 
         jLabel11.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
-        jLabel11.setText("Orejas / Ears");
+        jLabel11.setText("Ears / Orejas");
 
         jLabel12.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         jLabel12.setText("Mouth / Boca");
