@@ -5,6 +5,10 @@
  */
 package com.ActividadPeque;
 
+import java.awt.Image;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author user
@@ -16,6 +20,50 @@ public class frmActividadTresPeque extends javax.swing.JFrame {
      */
     public frmActividadTresPeque() {
         initComponents();
+        
+        ImageIcon delfin2 = new ImageIcon("src/com/Recursos/Face/3 ojos eyes.png");
+        Icon icono2 = new ImageIcon(delfin2.getImage().getScaledInstance(jLabelojo.getWidth(), jLabelojo.getHeight(), Image.SCALE_SMOOTH));
+        jLabelojo.setIcon(icono2);
+        this.repaint();
+        
+        ImageIcon delfin3 = new ImageIcon("src/com/Recursos/Face/5 nariz nose.png");
+        Icon icono3 = new ImageIcon(delfin3.getImage().getScaledInstance(jLabelnariz.getWidth(), jLabelnariz.getHeight(), Image.SCALE_SMOOTH));
+        jLabelnariz.setIcon(icono3);
+        this.repaint();
+        
+        ImageIcon delfin4 = new ImageIcon("src/com/Recursos/Face/4 orejas ears.png");
+        Icon icono4 = new ImageIcon(delfin4.getImage().getScaledInstance(jLabelorjea.getWidth(), jLabelorjea.getHeight(), Image.SCALE_SMOOTH));
+        jLabelorjea.setIcon(icono4);
+        this.repaint();
+        
+        ImageIcon delfin5 = new ImageIcon("src/com/Recursos/Face/3 ojos eyes.png");
+        Icon icono5 = new ImageIcon(delfin5.getImage().getScaledInstance(jLabelojo2.getWidth(), jLabelojo2.getHeight(), Image.SCALE_SMOOTH));
+        jLabelojo2.setIcon(icono5);
+        this.repaint();
+        
+        ImageIcon delfin6 = new ImageIcon("src/com/Recursos/Face/6 boca mouth.png");
+        Icon icono6 = new ImageIcon(delfin6.getImage().getScaledInstance(jLabelboca.getWidth(), jLabelboca.getHeight(), Image.SCALE_SMOOTH));
+        jLabelboca.setIcon(icono6);
+        this.repaint();
+        
+        ImageIcon delfin7 = new ImageIcon("src/com/Recursos/Face/4 orejas ears.png");
+        Icon icono7 = new ImageIcon(delfin7.getImage().getScaledInstance(jLabeloreja2.getWidth(), jLabeloreja2.getHeight(), Image.SCALE_SMOOTH));
+        jLabeloreja2.setIcon(icono7);
+        this.repaint();
+        
+        ImageIcon delfin8 = new ImageIcon("src/com/Recursos/Face/2 cabello hair.png");
+        Icon icono8 = new ImageIcon(delfin8.getImage().getScaledInstance(jLabelohair.getWidth(), jLabelohair.getHeight(), Image.SCALE_SMOOTH));
+        jLabelohair.setIcon(icono8);
+        this.repaint();
+        
+        ImageIcon delfin9 = new ImageIcon("src/com/Recursos/Face/6 boca mouth.png");
+        Icon icono9 = new ImageIcon(delfin9.getImage().getScaledInstance(jLabelmouth.getWidth(), jLabelmouth.getHeight(), Image.SCALE_SMOOTH));
+        jLabelmouth.setIcon(icono9);
+        this.repaint();
+        
+        
+        
+        
     }
 
     /**
@@ -27,10 +75,50 @@ public class frmActividadTresPeque extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
+        buttonGroup3 = new javax.swing.ButtonGroup();
+        buttonGroup4 = new javax.swing.ButtonGroup();
+        buttonGroup5 = new javax.swing.ButtonGroup();
+        buttonGroup6 = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabelnariz = new javax.swing.JLabel();
+        jRadioButton4 = new javax.swing.JRadioButton();
+        jRadioButton5 = new javax.swing.JRadioButton();
+        jRadioButton6 = new javax.swing.JRadioButton();
+        jRadioButton7 = new javax.swing.JRadioButton();
+        jRadioButton8 = new javax.swing.JRadioButton();
+        jRadioButton9 = new javax.swing.JRadioButton();
+        jRadioButton10 = new javax.swing.JRadioButton();
+        jRadioButton11 = new javax.swing.JRadioButton();
+        jRadioButton12 = new javax.swing.JRadioButton();
+        jLabel7 = new javax.swing.JLabel();
+        jRadioButton14 = new javax.swing.JRadioButton();
+        jRadioButton15 = new javax.swing.JRadioButton();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabelojo2 = new javax.swing.JLabel();
+        jLabelboca = new javax.swing.JLabel();
+        jLabeloreja2 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jTextField6 = new javax.swing.JTextField();
+        jLabel20 = new javax.swing.JLabel();
+        jRadioButton37 = new javax.swing.JRadioButton();
+        jLabelmouth = new javax.swing.JLabel();
+        jRadioButton39 = new javax.swing.JRadioButton();
+        jRadioButton38 = new javax.swing.JRadioButton();
+        jRadioButton13 = new javax.swing.JRadioButton();
+        jLabelohair = new javax.swing.JLabel();
+        jLabelorjea = new javax.swing.JLabel();
+        jLabelojo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,9 +130,202 @@ public class frmActividadTresPeque extends javax.swing.JFrame {
         jLabel2.setText("Activity: Parts of Face");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 22, 481, -1));
 
-        jLabel1.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
-        jLabel1.setText("1) Complete the Parts of the face");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 98, -1, -1));
+        jLabelnariz.setText(" ");
+        jLabelnariz.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelnariz, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 330, 180, 130));
+
+        jRadioButton4.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup1.add(jRadioButton4);
+        jRadioButton4.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton4.setText("eyes");
+        jPanel1.add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, -1, -1));
+
+        jRadioButton5.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup1.add(jRadioButton5);
+        jRadioButton5.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton5.setText("ear");
+        jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton5ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 230, -1, -1));
+
+        jRadioButton6.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup1.add(jRadioButton6);
+        jRadioButton6.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton6.setText("nose");
+        jPanel1.add(jRadioButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 230, -1, -1));
+
+        jRadioButton7.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup2.add(jRadioButton7);
+        jRadioButton7.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton7.setText("eyes");
+        jRadioButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton7ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 370, -1, -1));
+
+        jRadioButton8.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup2.add(jRadioButton8);
+        jRadioButton8.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton8.setText("nose");
+        jPanel1.add(jRadioButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 370, -1, -1));
+
+        jRadioButton9.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup2.add(jRadioButton9);
+        jRadioButton9.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton9.setText("ear");
+        jRadioButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton9ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 370, -1, -1));
+
+        jRadioButton10.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup3.add(jRadioButton10);
+        jRadioButton10.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton10.setText("eyes");
+        jPanel1.add(jRadioButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 530, -1, -1));
+
+        jRadioButton11.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup3.add(jRadioButton11);
+        jRadioButton11.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton11.setText("mouth");
+        jPanel1.add(jRadioButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 530, -1, -1));
+
+        jRadioButton12.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup3.add(jRadioButton12);
+        jRadioButton12.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton12.setText("ears");
+        jRadioButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton12ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 530, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
+        jLabel7.setText("1) Complete the Parts of the face");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 98, -1, -1));
+
+        jRadioButton14.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup4.add(jRadioButton14);
+        jRadioButton14.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton14.setText("hair");
+        jPanel1.add(jRadioButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 690, -1, -1));
+
+        jRadioButton15.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup4.add(jRadioButton15);
+        jRadioButton15.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton15.setText("ear");
+        jRadioButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton15ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 690, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
+        jLabel5.setText("2) Complete the sentences");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1040, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
+        jLabel8.setText("1) Complete the Parts of the face");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 98, -1, -1));
+
+        jLabelojo2.setText(" ");
+        jLabelojo2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelojo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 1130, 210, 100));
+
+        jLabelboca.setText(" ");
+        jLabelboca.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelboca, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 1260, 210, 100));
+
+        jLabeloreja2.setText(" ");
+        jLabeloreja2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabeloreja2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 1400, 210, 100));
+
+        jLabel6.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel6.setText("to see");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1170, -1, -1));
+
+        jTextField4.setText(" ");
+        jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 1170, 60, -1));
+
+        jLabel16.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel16.setText("I need my ");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 1170, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel17.setText("I need my ");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 1300, -1, -1));
+
+        jTextField5.setText(" ");
+        jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 1300, 60, -1));
+
+        jLabel18.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel18.setText("to feed me");
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 1300, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel19.setText("I need my ");
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 1440, -1, -1));
+
+        jTextField6.setText(" ");
+        jPanel1.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 1440, 60, -1));
+
+        jLabel20.setFont(new java.awt.Font("Segoe Script", 0, 14)); // NOI18N
+        jLabel20.setText("to hear");
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 1440, -1, -1));
+
+        jRadioButton37.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup6.add(jRadioButton37);
+        jRadioButton37.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton37.setText("eyes");
+        jPanel1.add(jRadioButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 860, -1, -1));
+
+        jLabelmouth.setText(" ");
+        jLabelmouth.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelmouth, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 810, 180, 130));
+
+        jRadioButton39.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup6.add(jRadioButton39);
+        jRadioButton39.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton39.setText("face");
+        jRadioButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButton39ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jRadioButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 860, -1, -1));
+
+        jRadioButton38.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup6.add(jRadioButton38);
+        jRadioButton38.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton38.setText("mouth");
+        jPanel1.add(jRadioButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 860, -1, -1));
+
+        jRadioButton13.setBackground(new java.awt.Color(255, 255, 255));
+        buttonGroup4.add(jRadioButton13);
+        jRadioButton13.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
+        jRadioButton13.setText("eyes");
+        jPanel1.add(jRadioButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 690, -1, -1));
+
+        jLabelohair.setText(" ");
+        jLabelohair.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelohair, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 640, 180, 130));
+
+        jLabelorjea.setText(" ");
+        jLabelorjea.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelorjea, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 480, 180, 130));
+
+        jLabelojo.setText(" ");
+        jLabelojo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel1.add(jLabelojo, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 180, 120));
 
         jScrollPane1.setViewportView(jPanel1);
 
@@ -52,15 +333,41 @@ public class frmActividadTresPeque extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 800, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 935, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 600, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1391, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 51, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton7ActionPerformed
+
+    private void jRadioButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton9ActionPerformed
+
+    private void jRadioButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton15ActionPerformed
+
+    private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton12ActionPerformed
+
+    private void jRadioButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton39ActionPerformed
+
+    private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -99,9 +406,49 @@ public class frmActividadTresPeque extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup buttonGroup3;
+    private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup buttonGroup5;
+    private javax.swing.ButtonGroup buttonGroup6;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabelboca;
+    private javax.swing.JLabel jLabelmouth;
+    private javax.swing.JLabel jLabelnariz;
+    private javax.swing.JLabel jLabelohair;
+    private javax.swing.JLabel jLabelojo;
+    private javax.swing.JLabel jLabelojo2;
+    private javax.swing.JLabel jLabeloreja2;
+    private javax.swing.JLabel jLabelorjea;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JRadioButton jRadioButton10;
+    private javax.swing.JRadioButton jRadioButton11;
+    private javax.swing.JRadioButton jRadioButton12;
+    private javax.swing.JRadioButton jRadioButton13;
+    private javax.swing.JRadioButton jRadioButton14;
+    private javax.swing.JRadioButton jRadioButton15;
+    private javax.swing.JRadioButton jRadioButton37;
+    private javax.swing.JRadioButton jRadioButton38;
+    private javax.swing.JRadioButton jRadioButton39;
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton5;
+    private javax.swing.JRadioButton jRadioButton6;
+    private javax.swing.JRadioButton jRadioButton7;
+    private javax.swing.JRadioButton jRadioButton8;
+    private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
     // End of variables declaration//GEN-END:variables
 }
