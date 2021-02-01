@@ -122,7 +122,7 @@ public class frmTopicoDosGrand extends javax.swing.JFrame {
         jLabel11.setText("Attic /  Atico");
 
         jLabel12.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
-        jLabel12.setText("Dining room /  Comedor");
+        jLabel12.setText("Living room / Sala");
 
         jLabel13.setFont(new java.awt.Font("Segoe Print", 0, 14)); // NOI18N
         jLabel13.setText("Garden /  Jardin");
@@ -231,11 +231,17 @@ public class frmTopicoDosGrand extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 755, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1020, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 998, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
