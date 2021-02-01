@@ -62,13 +62,14 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
         jRadioButton7 = new javax.swing.JRadioButton();
         jRadioButton8 = new javax.swing.JRadioButton();
         jRadioButton9 = new javax.swing.JRadioButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 600));
 
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(800, 790));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(800, 850));
 
-        jPanel1.setPreferredSize(new java.awt.Dimension(800, 790));
+        jPanel1.setPreferredSize(new java.awt.Dimension(800, 850));
 
         jLabel1.setFont(new java.awt.Font("Segoe Print", 1, 24)); // NOI18N
         jLabel1.setText("choose the correct transport");
@@ -102,6 +103,9 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
         jRadioButton8.setText("Bicycle");
 
         jRadioButton9.setText("Train");
+
+        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
+        jButton1.setText("OK");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -147,16 +151,18 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
                                 .addComponent(lblImaActiT3, javax.swing.GroupLayout.PREFERRED_SIZE, 267, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jLabel8))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(61, 61, 61)
                                         .addComponent(jRadioButton7)
                                         .addGap(78, 78, 78)
                                         .addComponent(jRadioButton8))
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(127, 127, 127)
-                                        .addComponent(jRadioButton9)))))))
+                                        .addComponent(jRadioButton9))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel8))))))))
                 .addContainerGap(250, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -201,7 +207,9 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
                             .addComponent(jRadioButton8))
                         .addGap(37, 37, 37)
                         .addComponent(jRadioButton9)))
-                .addContainerGap(66, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(60, 60, 60))
         );
 
         jScrollPane1.setViewportView(jPanel1);
@@ -214,7 +222,7 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 826, Short.MAX_VALUE)
         );
 
         pack();
@@ -257,6 +265,7 @@ public class frmActividadCincoPeque extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
