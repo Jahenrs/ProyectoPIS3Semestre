@@ -92,7 +92,7 @@ public class frmTopicoDosGrand extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(800, 1030));
 
-        jLabel1.setFont(new java.awt.Font("Segoe Script", 0, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe Script", 1, 48)); // NOI18N
         jLabel1.setText("Parts of House");
 
         jLabel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
